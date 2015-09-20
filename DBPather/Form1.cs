@@ -38,7 +38,7 @@ namespace DBPather
         class Сorrection //Класс для хранения патча
         {
             public string Name { get; set; }
-            public string Type { get; set; }
+            public string Type { get; set; }//asdasdadad
             public string Action { get; set; }
             public string Command { get; set; }
         }
