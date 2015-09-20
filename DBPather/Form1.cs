@@ -28,8 +28,8 @@ using DBPather.Properties;
 
 namespace DBPather
 {
-    public partial class Form1 : Form//
-    {
+    public partial class Form1 : Form
+    {//
         public Form1()
         {
             InitializeComponent();
@@ -38,7 +38,7 @@ namespace DBPather
         class Сorrection //Класс для хранения патча
         {
             public string Name { get; set; }
-            public string Type { get; set; }//asdasdadad
+            public string Type { get; set; }
             public string Action { get; set; }
             public string Command { get; set; }
         }
